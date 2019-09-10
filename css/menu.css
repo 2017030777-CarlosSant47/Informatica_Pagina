@@ -1,6 +1,6 @@
 div.barra{
-    background-color: #353535;
-    padding:20px 0;
+    background-color: #252525;
+    padding: 6px 0;
     display: grid;
 }
 div.logo{
@@ -36,11 +36,11 @@ nav.navegacion-principal a{
     margin-bottom: 20px;
 }
 nav.navegacion-principal a:hover{
-    background-color: #fe4918;
+    background-color: #36D68C;
 }
 nav.navegacion-principal a:last-child{
-    border: 2px solid #fe4918;
-    color: #fe4918;
+    border: 2px solid #36D68C;
+    color: white;
 }
 nav.navegacion-principal a:last-child:hover{
     color:#ffffff;
