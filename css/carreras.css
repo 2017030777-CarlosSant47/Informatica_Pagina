@@ -26,7 +26,7 @@ ul.lista-invitados{
 
     @media only screen and (min-width: 768px) {
         ul.lista-invitados li {
-            width: 29%;
+            width: 32%;
         }
     }
 
@@ -60,7 +60,7 @@ ul.lista-invitados{
         width: 100%;
         text-align: left;
         font-family: 'Oswald', sans-serif;
-        color: #fe4918;
+        color: #36D68C;
         text-transform: uppercase;
         transition: all .5s ease-in-out;
 
