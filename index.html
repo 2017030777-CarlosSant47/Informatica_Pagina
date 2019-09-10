@@ -13,13 +13,81 @@ Licence URI: http://www.os-templates.com/template-terms
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
     <link href="css/index.css" rel="stylesheet" type="text/css" media="all">
-    
+
 </head>
+<style>
+    ul.lista-invitados li {
+        padding: 10px;
+        float: left;
+    }
+
+    /*ul.lista-invitados li img {
+    width:100%;
+}*/
+
+    @media only screen and (min-width: 480px) {
+        ul.lista-invitados li {
+            width: 46%;
+        }
+    }
+
+    @media only screen and (min-width: 768px) {
+        ul.lista-invitados li {
+            width: 29%;
+        }
+    }
+
+
+    div.invitado {
+        position: relative;
+        overflow: hidden;
+    }
+
+    div.invitado img {
+        max-width: 100%;
+        filter: gray;
+        -webkit-filter: grayscale(1);
+        transition: all .5s ease-in-out;
+    }
+
+    div.invitado:hover img {
+        -webkit-filter: grayscale(0);
+        -webkit-transform: scale(1.1);
+
+
+    }
+
+    div.invitado p {
+        position: absolute;
+        bottom: 0;
+        left: 0;
+        padding: 15px 10px;
+        margin: 0;
+        background-color: rgba(0, 0, 0, 0.55);
+        width: 100%;
+        text-align: left;
+        font-family: 'Oswald', sans-serif;
+        color: #fe4918;
+        text-transform: uppercase;
+        transition: all .5s ease-in-out;
+
+    }
+
+    div.invitado:hover p {
+        bottom: -80px;
+        opacity: 0;
+    }
+
+    div.invitado.p{
+        color: #36D68C;
+    }
+    
+</style>
 
 <body id="top">
 
     <div class="bgded overlay" style="background-image:url('./img/img1.jpg');">
-       
+
         <div id="pageintro" class="hoc clear">
             <article>
                 <h3 class="heading">Ingeniería en Informática / Ing. en Tecnologías de la Información</h3>
@@ -36,6 +104,58 @@ Licence URI: http://www.os-templates.com/template-terms
 
 
 
+        <div class="wrapper row3">
+            <main class="hoc container clear">
+                <section class="invitados contenedor seccion ">
+                    <h2>Nuestros Invitados</h2>
+                    <ul class="lista-invitados clearfix">
+                        <li>
+                            <div class="invitado">
+                                <img src="img/invitado1.jpg" alt="imagen invitado">
+                                <p>Rafael Bautista</p>
+                            </div>
+                        </li>
+
+                        <li>
+                            <div class="invitado">
+                                <img src="img/invitado2.jpg" alt="imagen invitado">
+                                <p>shari Herrera</p>
+                            </div>
+                        </li>
+
+                        <li>
+                            <div class="invitado">
+                                <img src="img/invitado3.jpg" alt="imagen invitado">
+                                <p>Gregorio Sachez</p>
+                            </div>
+                        </li>
+
+                        <li>
+                            <div class="invitado">
+                                <img src="img/invitado4.jpg" alt="imagen invitado">
+                                <p>Susana Rivera</p>
+                            </div>
+                        </li>
+
+                        <li>
+                            <div class="invitado">
+                                <img src="img/invitado5.jpg" alt="imagen invitado">
+                                <p>Harol Garcia</p>
+                            </div>
+                        </li>
+
+                        <li>
+                            <div class="invitado">
+                                <img src="img/invitado6.jpg" alt="imagen invitado">
+                                <p>Susan Sanchez</p>
+                            </div>
+                        </li>
+
+                    </ul>
+                </section>
+            </main>
+        </div>
+
         <div class="wrapper row5">
             <div id="copyright" class="hoc clear">
                 <!-- ################################################################################################ -->
@@ -46,6 +166,7 @@ Licence URI: http://www.os-templates.com/template-terms
 
         <a id="backtotop" href="#top"><i class="fa fa-chevron-up"></i></a>
     </div>
+
 </body>
 
 </html>
