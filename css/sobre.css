@@ -1,0 +1,36 @@
+h3.carreraNombre{
+    font-size: 29px !important;
+    color:white;
+}
+#pageintro{
+    position: relative !important;
+}
+
+.desPart{
+    font-size: 19px;
+    text-align: center;
+    line-height: 1.4;
+}
+
+h2::after {
+    content: '';
+    margin: 0 auto;
+    background-image: url(../img/separador.png);
+    height: 30px;
+    width: 100px;
+    display: block;
+}
+
+div.img2::before {
+    background-image: url(../img/img1.jpg);
+    content: '';
+}
+div.img3::before {
+    background-image: url(../img/imgw3.jpg);
+    content: '';
+}
+
+
+section{
+    background-color: none !important;
+}
