@@ -3,6 +3,9 @@ div.barra{
     padding: 6px 0;
     display: grid;
 }
+header{
+    display: block;
+}
 div.logo{
     width: 80%;
     float: left;
@@ -87,3 +90,4 @@ div.menu-movil span{
     background-color: white;
     display:block;
 }
+

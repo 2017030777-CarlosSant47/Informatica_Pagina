@@ -5,6 +5,9 @@
 #pageintro {
     padding: 180px 0 130px;
 }
+ul{
+    text-decoration: none;
+}
 
 
 .titleTesti{
@@ -261,6 +264,7 @@ div.invitado.p {
     color: #36D68C;
 }
 
+
 footer {
     background-color: #353535;
     padding-top: 40px;
@@ -296,7 +300,7 @@ footer .ultimos-tweets {
     margin-bottom: 10px;
 }
 
-footer li {
+footer .ultimos-tweets ul li{
     text-decoration: none !important;
 }
 
@@ -306,8 +310,27 @@ footer nav {
 
 .copyright {
     background: #2e2e2e;
-    color: white;
     margin: 0px;
-    text-align: center;
+    text-align: left;
+    color: #FFF;
+    font-family: Economica,sans-serif;
+    font-size: 1.125em;
+    padding: 0px 0px 25px;
+    padding-top: 20px;
+
 }
 
+footer p span{
+    text-align: right;
+    display: block;
+    margin-top: 3px;
+    font-size: .9em;
+    margin-right: 80px;
+}
+header{
+    display: block;
+}
+section{
+    background-color: red;
+    display: block;
+}
