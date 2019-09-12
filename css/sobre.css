@@ -2,6 +2,9 @@ h3.carreraNombre{
     font-size: 29px !important;
     color:white;
 }
+.plan{
+    color: var(--main-bg-color) !important;
+}
 #pageintro{
     position: relative !important;
 }

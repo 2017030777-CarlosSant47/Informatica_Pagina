@@ -319,6 +319,21 @@ footer nav {
     padding-top: 20px;
 
 }
+div.newsletter .contenido{
+    padding: 100px 0;
+    color: #ffffff;
+    text-align: center;
+    position: relative;
+}
+div.newsletter .contenido p{
+    font-size: 1.2em;
+    text-transform: lowercase;
+}
+div.newsletter .contenido h3{
+    color: #ffffff;
+    font-size: 7vw;
+    font-family: 'PT Sans', sans-serif;
+}
 
 footer p span{
     text-align: right;
@@ -332,4 +347,33 @@ header{
 }
 section{
     display: block;
+}
+
+
+
+.abutton:hover{
+    background-color: var(--main-bg-color);
+}
+div.newsletter{
+    position: relative;
+    height: auto;
+}
+div.newsletter::before{
+    background-image: url(../img/bg-newsletter.jpg);
+    content: '';
+}
+div.newsletter .contenido{
+    padding: 100px 0;
+    color: #ffffff;
+    text-align: center;
+    position: relative;
+}
+div.newsletter .contenido p{
+    font-size: 1.2em;
+    text-transform: lowercase;
+}
+div.newsletter .contenido h3{
+    color: #ffffff;
+    font-size: 7vw;
+    font-family: 'PT Sans', sans-serif;
 }
