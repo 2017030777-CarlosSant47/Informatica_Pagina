@@ -9,7 +9,9 @@ ul{
     text-decoration: none;
 }
 
-
+footer h3 span {
+    color: var(--main-bg-color) !important;
+}
 .titleTesti{
     margin-top: 90px;
 }
