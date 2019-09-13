@@ -326,6 +326,10 @@ footer nav {
     margin-left: 72px;
 
 }
+.carreraNombre
+{
+    color: var(--main-bg-color) !important;
+}
 div.newsletter .contenido{
     padding: 100px 0;
     color: #ffffff;
