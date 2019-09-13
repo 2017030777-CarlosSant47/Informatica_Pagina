@@ -5,6 +5,10 @@
 #pageintro {
     padding: 180px 0 130px;
 }
+ul.prAca li
+{
+    text-align-last: left !important;
+}
 ul{
     text-decoration: none;
 }
