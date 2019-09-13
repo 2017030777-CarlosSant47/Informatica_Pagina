@@ -323,6 +323,7 @@ footer nav {
     font-size: 1.125em;
     padding: 0px 0px 25px;
     padding-top: 20px;
+    margin-left: 72px;
 
 }
 div.newsletter .contenido{
@@ -347,7 +348,7 @@ footer p span{
     margin-top: 3px;
     font-size: .9em;
     margin-right: 80px;
-    margin-left: 72px;
+
 }
 header{
     display: block;
